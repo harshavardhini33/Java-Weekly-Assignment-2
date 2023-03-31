@@ -159,7 +159,7 @@ public class Main {
 
 ~~~
 ### OUTPUT:
-![image](https://user-images.githubusercontent.com/93427264/226099195-e930f66f-8e71-4b39-8e2d-10c1c92b31a5.png)
+![image](https://user-images.githubusercontent.com/93427208/229182247-fdc115c5-f9db-4ab6-952f-17e850a66a79.png)
 ### 5.The Matrix class has methods for each of the following:
 #### 1 - get the number of rows
 #### 2 - get the number of columns
