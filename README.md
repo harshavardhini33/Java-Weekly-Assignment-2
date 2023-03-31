@@ -54,7 +54,7 @@ public class Main {
 ~~~
 
 ### OUTPUT
-![image](https://user-images.githubusercontent.com/93427264/226088152-ccb794eb-b79c-499a-a236-a570fd2d99a2.png)
+![image](https://user-images.githubusercontent.com/93427208/229181457-a54d9618-fabc-44cf-8cef-2323dc2651fb.png)
 
 ### 2. Create a class named 'Member' having the following members:
 #### Data members
