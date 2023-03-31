@@ -132,7 +132,7 @@ public class Employee extends member{
 }
 ~~~
 ### OUTPUT:
-![image](https://user-images.githubusercontent.com/93427264/226090254-9df10bd8-e285-4f19-a21e-81242bfee6e3.png)
+![image](https://user-images.githubusercontent.com/93427208/229182019-7660c4b8-0c8f-40b6-b2e3-20c769acc69c.png)
 
 ### 4.Define a method to calculate power of a number raised to other i.e. ab using recursion where the numbers 'a' and 'b' are to be entered by the user
 ### CODE:
