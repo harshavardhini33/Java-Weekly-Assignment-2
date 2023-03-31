@@ -4,30 +4,30 @@ Register No : 212221240015
 Name : Harshavardhini M
 Date : 19th March, 23
 ```
-## 1.Using inheritance, one class can acquire the properties of others. Consider the following Animal class:
-### class Animal{
-###     void walk(){
-###         System.out.println("I am walking");
-###     }
-### }
-### This class has only one method, walk. Next, we want to create a Bird class that also has a fly method. We do this using extends keyword:
-### class Bird extends Animal {
-###     void fly() {
-###         System.out.println("I am flying");
-###     }
-### }
+### 1.Using inheritance, one class can acquire the properties of others. Consider the following Animal class:
+#### class Animal{
+####     void walk(){
+####         System.out.println("I am walking");
+####     }
+#### }
+#### This class has only one method, walk. Next, we want to create a Bird class that also has a fly method. We do this using extends keyword:
+#### class Bird extends Animal {
+####     void fly() {
+####         System.out.println("I am flying");
+####     }
+#### }
 
 
-### Finally, we can create a Bird object that can both fly and walk.
-### public class Solution{
-###    public static void main(String[] args){
-###       Bird bird = new Bird();
-###       bird.walk();
-###       bird.fly();
-###    }
-### }
+#### Finally, we can create a Bird object that can both fly and walk.
+#### public class Solution{
+####    public static void main(String[] args){
+####       Bird bird = new Bird();
+####       bird.walk();
+####       bird.fly();
+####    }
+#### }
 
-## CODE:
+### CODE:
 ~~~
 public class animal {
     public void walk(){
@@ -53,18 +53,18 @@ public class Main {
 }
 ~~~
 
-## OUTPUT
+### OUTPUT
 ![image](https://user-images.githubusercontent.com/93427264/226088152-ccb794eb-b79c-499a-a236-a570fd2d99a2.png)
 
-## 2. Create a class named 'Member' having the following members:
-### Data members
-### 1 - Name
-### 2 - Age
-### 3 - Phone number
-### 4 - Address
-### 5 - Salary
-### It also has a method named 'printSalary' which prints the salary of the members.
-### Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' ### ### ### respectively. Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
+### 2. Create a class named 'Member' having the following members:
+#### Data members
+#### 1 - Name
+#### 2 - Age
+#### 3 - Phone number
+#### 4 - Address
+#### 5 - Salary
+#### It also has a method named 'printSalary' which prints the salary of the members.
+#### Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' ### ### #### respectively. Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
 
 ### CODE:
 ~~~
@@ -100,12 +100,12 @@ public class Manager extends member{
 ### OUTPUT:
 
 
-##  3.Write a program that would print the information (name, year of joining, salary, ###  address) of three employees by creating a class named 'Employee'. The output should ###  be as follows:
-###  Name        Year of joining        Address
-###  Robert            1994                64C- WallsStreat
-###  Sam                2000                68D- WallsStreat
-###  John                1999                26B- WallsStreat
-### CODE:
+###  3.Write a program that would print the information (name, year of joining, salary, ###  address) of three employees by creating a class named 'Employee'. The output should ###  be as follows:
+####  Name        Year of joining        Address
+####  Robert            1994                64C- WallsStreat
+####  Sam                2000                68D- WallsStreat
+####  John                1999                26B- WallsStreat
+#### CODE:
 ~~~
 import java.util.Scanner;
 public class Main {
@@ -134,7 +134,7 @@ public class Employee extends member{
 ### OUTPUT:
 ![image](https://user-images.githubusercontent.com/93427264/226090254-9df10bd8-e285-4f19-a21e-81242bfee6e3.png)
 
-## 4.Define a method to calculate power of a number raised to other i.e. ab using recursion where the numbers 'a' and 'b' are to be entered by the user
+### 4.Define a method to calculate power of a number raised to other i.e. ab using recursion where the numbers 'a' and 'b' are to be entered by the user
 ### CODE:
 ~~~
 package q4;
@@ -160,12 +160,12 @@ public class Main {
 ~~~
 ### OUTPUT:
 ![image](https://user-images.githubusercontent.com/93427264/226099195-e930f66f-8e71-4b39-8e2d-10c1c92b31a5.png)
-## 5.The Matrix class has methods for each of the following:
-### 1 - get the number of rows
-### 2 - get the number of columns
-### 3 - set the elements of the matrix at given position (i,j)
-### 4 - adding two matrices. If the matrices are not addable, "Matrices cannot be added" will be displayed.
-### 5 - multiplying the two matrices
+### 5.The Matrix class has methods for each of the following:
+#### 1 - get the number of rows
+#### 2 - get the number of columns
+#### 3 - set the elements of the matrix at given position (i,j)
+#### 4 - adding two matrices. If the matrices are not addable, "Matrices cannot be added" will be displayed.
+#### 5 - multiplying the two matrices
 ### CODE:
 ~~~
 package q5;
