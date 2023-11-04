@@ -2,7 +2,7 @@
 ```
 Register No : 212221240015
 Name : Harshavardhini M
-Date : 19th March, 23
+Date : 19th March, 2023
 ```
 ### 1.Using inheritance, one class can acquire the properties of others. Consider the following Animal class:
 #### class Animal{
